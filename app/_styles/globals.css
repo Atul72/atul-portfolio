@@ -24,6 +24,18 @@ html {
   }
 }
 
+@layer components {
+  .line-after-components {
+    height: 1px;
+    /* width: 130px; */
+    max-width: 1000px;
+    width: 95%;
+    background: #7ea8f7;
+    display: block;
+    position: absolute;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
