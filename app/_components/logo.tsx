@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export const Logo = () => {
   return (
-    <Link href="/" className="flex flex-col items-center gap-4 z-10">
-      <span className="text-xl md:text-2xl font-semibold text-localText-600">
+    <Link href="/">
+      <span className="text-3xl md:text-5xl font-semibold text-localText-600">
         Atul Rai
       </span>
     </Link>

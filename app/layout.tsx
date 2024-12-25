@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body
-        className={`${poopins.className} max-w-[1000px] w-[80%] my-0 mx-auto`}
+        className={`${poopins.className} max-w-[1000px] w-[95%] md:w-[80%] my-0 mx-auto bg-localText-100`}
       >
         {children}
       </body>
