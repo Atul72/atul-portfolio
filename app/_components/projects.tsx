@@ -27,7 +27,7 @@ const ProjectData = [
 
 export default function Projects() {
   return (
-    <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-[10px]">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-[10px]">
       {ProjectData.map((project) => (
         <div
           key={project.title}

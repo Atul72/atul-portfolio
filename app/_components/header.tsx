@@ -14,7 +14,7 @@ export const Header = () => {
       <div className="flex justify-between">
         <Navigation />
         <div className="flex gap-2">
-          <div className="text-[15px] md:text-[18px] hover:underline hover:cursor-pointer md:mr-6">
+          <div className="text-[15px] md:text-[18px] text-localPrimary-200 hover:text-localPrimary-300 transition-all duration-200 hover:underline hover:cursor-pointer md:mr-6">
             Resume
           </div>
           <FaLinkedin size={23} />
