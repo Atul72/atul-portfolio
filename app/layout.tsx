@@ -1,6 +1,7 @@
 import "@/app/_styles/globals.css";
 import { ReactNode } from "react";
 import { Poppins } from "next/font/google";
+import { Header } from "./_components/header";
 
 const poopins = Poppins({
   weight: "500",
@@ -23,6 +24,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body
         className={`${poopins.className} max-w-[1000px] w-[95%] md:w-[80%] my-0 mx-auto bg-localText-100`}
       >
+        <Header />
+        <span className="line-after-components"></span>
         {children}
       </body>
     </html>

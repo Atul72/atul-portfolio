@@ -1,4 +1,3 @@
-import { Header } from "@/app/_components/header";
 import Section from "./_components/section";
 import Projects from "./_components/projects";
 import Posts from "./_components/posts";
@@ -7,8 +6,6 @@ import Footer from "./_components/footer";
 export default function Home() {
   return (
     <div>
-      <Header />
-      <span className="line-after-components"></span>
       <div className="mt-[150px]">
         <Section />
       </div>

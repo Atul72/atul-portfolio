@@ -7,7 +7,7 @@ export const Navigation = () => {
         <Link href="/projects">Projects</Link>
       </li>
       <li className="hover:underline hover:text-localText-600 transition-all duration-200">
-        <Link href="/blog">Blog</Link>
+        <Link href="/blogs">Blog</Link>
       </li>
     </ul>
   );
