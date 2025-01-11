@@ -1,7 +1,6 @@
 import Section from "./_components/section";
 import Projects from "./_components/projects";
 import Posts from "./_components/posts";
-import Footer from "./_components/footer";
 
 export default function Home() {
   return (
@@ -28,10 +27,6 @@ export default function Home() {
       <span className="line-after-components"></span>
       <div>
         <Posts />
-      </div>
-      <span className="line-after-components mt-[150px]"></span>
-      <div>
-        <Footer />
       </div>
     </div>
   );

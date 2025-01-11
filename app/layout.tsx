@@ -2,7 +2,7 @@ import "@/app/_styles/globals.css";
 import { ReactNode } from "react";
 import { Poppins } from "next/font/google";
 import { Header } from "./_components/header";
-
+import Footer from "./_components/footer";
 const poopins = Poppins({
   weight: "500",
   subsets: ["latin"],
@@ -27,6 +27,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <Header />
         <span className="line-after-components"></span>
         {children}
+        <span className="line-after-components mt-[150px]"></span>
+        <Footer />
       </body>
     </html>
   );
