@@ -1,11 +1,15 @@
 export default function About() {
   return (
     <div>
-      <div className="flex mt-[100px]">
-        <h1 className="text-[60px] font-bold text-localPrimary-200 ">About</h1>
+      <div className="flex mt-[50px] md:mt-[100px]">
+        <h1 className="text-[40px] md:text-[60px] font-bold text-localPrimary-200 ">
+          About
+        </h1>
       </div>
-      <div className="flex mt-[100px] text-localText-600 text-[25px]">Hi👋</div>
-      <div className="text-[20px]">
+      <div className="flex mt-[50px] md:mt-[100px] text-localText-600 md:text-[25px] text-[18px]">
+        Hi👋
+      </div>
+      <div className="text-[18px] md:text-[20px]">
         <p className="mt-5 text-localText-600">
           I&apos;m a passionate software engineer with a knack for creating
           user-friendly and efficient web applications.
